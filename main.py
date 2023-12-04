@@ -5,6 +5,7 @@ link = "http://books.toscrape.com/catalogue/category/books/travel_2/index.html"
 response = requests.get(link)
 website = response.text
 soup = BeautifulSoup(website, "html.parser")
+print(soup.prettify)
 
 strong_tags= soup.find_all('strong')
 result_counts = strong_tags[1].text
