@@ -21,6 +21,4 @@ Getting Book Names Using <a> Tags Inside <h3> Tags:
 
 Extracts and prints the book names using <a> tags inside <h3> tags.
 
-Install dependencies using:
-```bash
-pip install requests beautifulsoup4
+
