@@ -1,20 +1,20 @@
 This Python script utilizes the requests library to make an HTTP request to a webpage related to travel books, and BeautifulSoup to parse the HTML and extract relevant information. The target website is Books to Scrape.
 
 Script Features:
-Getting the Result Counts:
-Extracts the result counts from the webpage, indicating the number of books available.
+HTML Elements and Page Structure:
 
-Getting the Site Title:
-Extracts the title of the webpage.
+Demonstrates the use of BeautifulSoup to find and print specific HTML elements like ul, div, and title.
+Prints the prettified HTML structure of the webpage.
+Result Counts and Site Title:
 
-Getting Book Prices:
-Extracts and prints the prices of the books.
+Extracts and prints the result counts and site title from the webpage.
+Book Prices:
 
-Getting Book Links:
-Extracts and prints the text of all links on the page.
+Scrapes and prints the prices of the books from the webpage.
+Book Links and Names:
 
-Getting Book Names Using h3 Tags:
-Extracts and prints the book names using h3 tags.
+Extracts and prints both book links and names using different HTML tags.
+Writing Book Names to File:
 
-Getting Book Names Using attribute Tags Inside h3 Tags:
-Extracts and prints the book names using attribute tags inside h3 tags.
+Utilizes a with statement to open a file named "books.txt" in write mode.
+Writes each book name to a new line in the file using UTF-8 encoding.
