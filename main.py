@@ -31,3 +31,6 @@ print(book_name)
 titles = [h3.a['title'] for h3 in soup.find_all(name="h3")]
 for title in titles:
     print(title)
+with open("books.txt", mode="w", encoding="utf-8") as file:
+    for book in titles:
+        file.write(f"{book}\n")
